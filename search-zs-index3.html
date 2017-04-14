@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/swiper-3.4.0.min.css"/>
+    <link rel="stylesheet" href="css/font-style.css"/>
+    <link rel="stylesheet" href="css/search.css"/>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/special.js"></script>
+    <script src="js/swiper-3.4.0.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="home">
+        <header class="bar rel-col">
+            <a href="javascript:;" class="icon_menu"></a>
+            <a href="javascript:;" class="logo_txt"><img class="bar-nav-title" src="images/index/logo-2.png"
+                                                         alt=""/></a>
+            <a href="javascript:;" class="shopping_cart"></a>
+            <!--<a href="javascript:;" class="my_details"></a>-->
+        </header>
+        <section class="content">
+            <div class="search-con2">
+                <div class="zs-bt">
+                    <div class="zs2-sel1">
+                        <i class="i-ico_zuansi"></i>
+                    </div>
+                    <div class="zs2-sel2 zs-sel-w" >
+                        <i class="i-ico_jietuo"></i>
+                        <div class="sel2-txt">
+                            <p>戒托</p>
+                            <p>请选择</p>
+                        </div>
+                    </div>
+                    <div class="zs2-sel3 zs-sel-w" >
+                        <i class="i-ico_zuanjie"></i>
+                    </div>
+                </div>
+                <div class="diy_pro">
+                    <dl>
+                        <dt>
+                            <a href="javascript:;">
+                                <img src="images/22808_303_.jpg" alt=""/>
+                                <span class="diy_pro_1">￥6055</span>
+                                <p>
+                                    <span >您的戒托</span><br/>
+                                    <span>拥心 18K金钻石 戒托</span>
+                                </p>
+
+                            </a>
+                        </dt>
+                        <dd>
+                            <a href="javascript:;">查看</a>
+                            <a href="javascript:;">重选</a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="zs-tab">
+                <a href="javascript:;">销量 <i class="zs-tab1"></i></a>
+                <a href="javascript:;">价格 <i class="zs-tab2"></i></a>
+                <a href="javascript:;">筛选 <i class="zs-tab3"></i></a>
+            </div>
+            <!--轮播图-->
+            <div class="swiper-container header-container swiper-container-horizontal">
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide  " href="javascript:;" target="_blank">
+                        <img src="images/search-jewel/1.jpg">
+                    </a>
+                    <a class="swiper-slide" href="javascript:;" target="_blank">
+                        <img src="images/search-jewel/1.jpg">
+                    </a>
+                    <a class="swiper-slide" href="javascript:;" target="_blank">
+                        <img src="images/search-jewel/1.jpg">
+                    </a>
+                </div>
+                <div class="swiper-pagination  header-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                </div>
+            </div>
+
+            <div class="zx-wrap1">
+                <div class="zx-wrap1-left">
+                    <p>0.32克拉 F色 SI1 圆形 钻石</p>
+                    <p>
+                        <span class="left-txt">￥6050</span>
+                        <!--<del class="left-txt2">原价￥6050</del>-->
+                    </p>
+                    <div class="left-txt3">
+                        选择该戒托
+                        <div class="txt-sel">
+                            <a href="javascript:;">定制一款戒指</a>
+                            <a href="javascript:;">定制一款挂坠</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="zx-wrap1-2">
+                    <span>材质</span><span>白18K金</span><span>白18K金</span>
+                </div>
+                <div class="zx-wrap3">
+                    <img src="images/chanpin.png" alt=""/>
+                    <img src="images/1473735361_2747.jpg" alt=""/>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</div>
+<script>
+    $(function(){
+        $(".zs2-sel1").click(function(){
+            $(".diy_pro").toggle();
+        });
+        var header_wp = new Swiper('.header-container', {
+            pagination: '.header-pagination',
+            paginationClickable: true,
+            loop: true,
+            autoplay: 3000,
+            speed: 600
+        });
+    })
+</script>
+</body>
+</html>

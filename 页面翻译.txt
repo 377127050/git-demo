@@ -1,0 +1,15 @@
+index.html--首页
+grzx.html--个人中心
+grzx-total.html--个人中心-我的积分
+grzx-site.html--个人中心- 地址管理
+grzx-pwd.html--个人中心-密码管理
+grzx-order.html--个人中心-我的订单
+grzx-info.html--个人中心-账户信息
+grzx-addsite.html--个人中心-添加地址
+logon.html--登陆页面
+gs-location--地址页面
+
+search-jewel.html-找珠宝
+search-zs.html
+search-zs-index2.html
+search-zx-index.html
